@@ -84,7 +84,7 @@ export function Platform() {
   return (
     <div className="w-full">
       {/* Hero */}
-      <section className="py-16 lg:py-24 bg-gradient-to-br from-blue-500/10 via-cyan-500/10 to-purple-500/10 dark:from-blue-500/20 dark:via-cyan-500/20 dark:to-purple-500/20">
+      <section className="py-16 lg:py-24 bg-gradient-to-br from-green-500/15 via-teal-500/15 to-blue-500/15 dark:from-green-500/25 dark:via-teal-500/25 dark:to-blue-500/25">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-3xl mx-auto">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 dark:bg-blue-950 text-blue-600 dark:text-blue-400 rounded-full mb-6">
@@ -99,7 +99,7 @@ export function Platform() {
               com dashboards, alertas e integrações para controle total da sua operação.
             </p>
             <Link to="/dashboard">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
+              <Button size="lg" className="bg-teal-500 hover:bg-teal-600 text-white">
                 Ver Dashboard Demo
                 <ArrowRight className="ml-2" size={18} />
               </Button>

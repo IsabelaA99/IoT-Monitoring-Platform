@@ -25,12 +25,15 @@ export function Navbar() {
   };
 
   return (
-    <nav className="sticky top-0 z-50 bg-white/80 dark:bg-zinc-900/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800">
+    <nav className="sticky top-0 z-50 bg-white/70 dark:bg-zinc-900/80 backdrop-blur-md border-b border-zinc-200 dark:border-zinc-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-lg"></div>
+            <img 
+            src="/LogoOriginal.png" 
+            alt="Logo Criotive IoT"
+            className="w-8 h-8 object-contain" />
             <span className="text-lg font-semibold text-zinc-900 dark:text-white">
               Criotive IoT
             </span>

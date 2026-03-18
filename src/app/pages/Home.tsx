@@ -1,6 +1,5 @@
 import { Link } from "react-router";
 import { ArrowRight, Cpu, Activity, BarChart3, Truck, Factory, Sprout, Zap, Building2 } from "lucide-react";
-import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { Button } from "../components/ui/button";
 
 export function Home() {
@@ -34,14 +33,14 @@ export function Home() {
     <div className="w-full">
       {/* Hero Section */}
       <section className="relative py-20 lg:py-32 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 via-cyan-500/10 to-purple-500/10 dark:from-blue-500/20 dark:via-cyan-500/20 dark:to-purple-500/20"></div>
+        <div className="absolute inset-0  bg-[radial-gradient(circle_at_top,_rgba(20,184,166,0.25),_transparent_60%)] dark:from-green-500/25 dark:via-teal-500/25 dark:to-blue-500/25"></div>
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiMwMDAiIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDM0djItSDI0di0yaDEyek0zNiAzMHYySDI0di0yaDEyeiIvPjwvZz48L2c+PC9zdmc+')] opacity-20"></div>
         
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-zinc-900 dark:text-white mb-6">
               Transformando dados do mundo real em{" "}
-              <span className="bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-blue-600 to-teal-600 bg-clip-text text-transparent">
                 inteligência para empresas
               </span>
             </h1>
@@ -51,7 +50,7 @@ export function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contato">
-                <Button size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
+                <Button size="lg" className="bg-teal-500 hover:bg-teal-600 text-white">
                   Solicitar demonstração
                   <ArrowRight className="ml-2" size={18} />
                 </Button>
@@ -136,7 +135,7 @@ export function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-blue-600 to-cyan-600">
+      <section className="py-20 bg-gradient-to-br from-slate-500 to-teal-400 dark:from-slate-900 dark:to-teal-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
             Pronto para transformar sua operação?
@@ -146,7 +145,7 @@ export function Home() {
             otimizar seus processos e reduzir custos.
           </p>
           <Link to="/dashboard">
-            <Button size="lg" className="bg-white text-blue-600 hover:bg-blue-50">
+            <Button size="lg" className="bg-white text-teal-500 hover:bg-blue-50">
               Ver Dashboard Demo
               <ArrowRight className="ml-2" size={18} />
             </Button>

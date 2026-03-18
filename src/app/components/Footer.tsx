@@ -9,7 +9,10 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-1">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-lg"></div>
+              <img 
+              src="/LogoOriginal.png" 
+              alt="Logo Criotive IoT"
+              className="w-8 h-8 object-contain" />
               <span className="text-lg font-semibold text-zinc-900 dark:text-white">
                 Criotive IoT
               </span>
